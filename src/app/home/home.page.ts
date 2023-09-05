@@ -1,5 +1,4 @@
 import { Component, ElementRef, ViewChildren, ViewChild, OnInit } from '@angular/core';
-import type { QueryList } from '@angular/core';
 import type { Animation } from '@ionic/angular';
 import { AnimationController, IonCard } from '@ionic/angular';
 
