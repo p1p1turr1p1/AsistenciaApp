@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-text-center ion-padding">
+    <strong>¡Bienvenido  {{ loggedInUsuario }}!</strong>
+  </div>
+    <div class="ion-text-center ion-padding">
+    <img src="assets/logo.png" alt="Imagen" width="120" height="30">
+  </div>
+  <div class="ion-text-center ion-padding">
+    <ion-button expand="full" color="primary">Asistencia</ion-button>
+  </div>
+  <div class="ion-text-center ion-padding">
+    <ion-button expand="full" color="warning">Escanear codigo</ion-button>
+  </div>
+  <div class="ion-text-center ion-padding">
+    <ion-button expand="full" color="danger" (click)="logOut()">Cerrar Sesión</ion-button>
+  </div>
+</ion-content>

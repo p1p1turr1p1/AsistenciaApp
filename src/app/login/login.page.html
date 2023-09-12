@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="ion-text-center ion-padding">
+    <img src="assets/logo.png" alt="Imagen" width="120" height="30">
+  </div>
+  <div class="ion-text-center ion-padding">
+  <ion-item>
+    <ion-label position="floating">Usuario</ion-label>
+    <ion-input [(ngModel)]="usuario"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" (click)="irHome()">Entrar</ion-button>
+
+  <ion-button fill="outline" expand="full" (click)="recuperarContra()">Recuperar contraseña</ion-button>
+
+</div>
+</ion-content>
+
